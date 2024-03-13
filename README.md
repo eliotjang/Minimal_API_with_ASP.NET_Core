@@ -27,5 +27,5 @@
 
 ### 주요 소스코드 구현
 - [기본 API 방식](Program.cs)
-- d
-- d
+- [MapGroup API](Program_MapGroup.cs)
+- [TypedResults 및 DTO 활용 API](Program_TypedResults.cs)
