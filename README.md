@@ -29,3 +29,6 @@
 - [기본 API 방식](Program.cs)
 - [MapGroup API](Program_MapGroup.cs)
 - [TypedResults 및 DTO 활용 API](Program_TypedResults.cs)
+
+### 참고자료
+- [a minimal API - MS Learning](https://learn.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-8.0&tabs=visual-studio)
