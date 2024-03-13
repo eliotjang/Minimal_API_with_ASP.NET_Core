@@ -5,7 +5,8 @@ builder.Services.AddDbContext<TodoDb>(opt => opt.UseInMemoryDatabase("TodoList")
 //builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 var app = builder.Build();
 
-var todoItems = app.MapGroup("/todoitems");
+RouteGroupBuilder todoItems = app.MapGroup("/todoitems"); // use DTO model
+//var todoItems = app.MapGroup("/todoitems");
 
 todoItems.MapGet("/", GetAllTodos);
 todoItems.MapGet("/complete", GetCompleteTodos);
